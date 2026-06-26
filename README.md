@@ -49,36 +49,9 @@ cd cryptodash
 npm install
 ```
 
-### Data Source Notes
 
-This app uses the [CoinGecko public API](https://www.coingecko.com/en/api/documentation) 
-### Run Locally
-
-```bash
-npm run dev
 ```
 
-The app will be available at `http://localhost:5173` (default Vite port).
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Notable Implementation Details
-
-- **React Router future flags** (`v7_startTransition`, `v7_relativeSplatPath`) are enabled in `main.jsx` to opt into v7 behavior early and suppress deprecation warnings.
-- **Dark mode** is controlled via Redux (`themeSlice`) and toggled by adding/removing the `dark` class on `document.documentElement`, which Tailwind's `dark:` variants respond to.
-- **Layout** uses a full-width `<main>` container (no max-width cap) so content spans the entire viewport on all routes.
-
-
-## License
 
 *(Add your license here, e.g. MIT)*
