@@ -49,9 +49,3 @@ cd cryptodash
 npm install
 ```
 
-
-
-
-
-
-*(Add your license here, e.g. MIT)*
